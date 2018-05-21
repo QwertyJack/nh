@@ -1,0 +1,4 @@
+#!/bin/bash
+
+uptime -p
+curl -sS localhost:23323 | grep -A 5 hashrate
